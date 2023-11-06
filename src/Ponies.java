@@ -16,6 +16,20 @@ public class Ponies {
         size = pSize;
         name = pName;
         color = pColor;
+        describePony();
+    }
+      if(color.equals("Pink")){
+        System.out.println("I am PINK");
+    } else{
+        System.out.println("I am NOT pink");
+    }
+    public Ponies(){
+        isUnicorn = true;
+        isPegasus = false;
+        size = 22.5;
+        name = "Twilight Sparkle";
+        color = "Purple";
+        describePony();
     }
 
     public void describePony(){
