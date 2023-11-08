@@ -20,5 +20,8 @@ public class Main {
         Ponies b;
         b = new Ponies("Brandon", "White", 14.23, true, true);
         System.out.println("pony a's name is " + b.name);
+
+        Animals j;
+        j = new Animals(false, false, false, false,false, false, true, false);
     }
 }

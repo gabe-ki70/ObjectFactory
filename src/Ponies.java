@@ -9,7 +9,7 @@ public class Ponies {
     public String name;
     public String color;
 
-    public Ponies(String pName, String pColor, double pSize, boolean pUnicorn, boolean pPegasus){
+    public Ponies(String pName, String pColor, double pSize, boolean pUnicorn, boolean pPegasus) {
         System.out.println("made a new pony!");
         isUnicorn = pUnicorn;
         isPegasus = pPegasus;
@@ -17,11 +17,12 @@ public class Ponies {
         name = pName;
         color = pColor;
         describePony();
-    }
-      if(color.equals("Pink")){
-        System.out.println("I am PINK");
-    } else{
-        System.out.println("I am NOT pink");
+
+        if (color.equals("Pink")) {
+            System.out.println("I am PINK");
+        } else {
+            System.out.println("I am NOT pink");
+        }
     }
     public Ponies(){
         isUnicorn = true;
